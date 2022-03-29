@@ -8,8 +8,7 @@
 .container {
     width: 100vw;
     height: 100vh;
-    background-color: red;
-    
+    background-color: red;   
 }
 
 .container h1 {
@@ -21,5 +20,10 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-40%, -60%);
+}
+
+.blocco1 img {
+    width: 80%;
+    height: 80%;
 }
