@@ -1,3 +1,4 @@
+/* Regole generali */
 * {
     margin: 0;
     padding: 0;
@@ -5,15 +6,35 @@
     font-family: 'Rubik Mono One', sans-serif;
 }
 
-.container {
-    width: 100vw;
-    height: 100vh;
-    background-color: red;   
+img {
+    display: block;
 }
 
-.container h1 {
+/* Stile blocchi */
+.container1, .container2, .container3 {
     position: relative;
+    width: 100vw;
+    height: 100vh;   
+}
+
+.container1 {
+    background-color: red;
+}
+
+.container2 {
+    background-color: green;
+}
+
+.container3 {
+    background-color: yellow;
+}
+
+h1 {
     color: yellow;
+}
+
+#terzoh1 {
+    color: green;
 }
 
 .blocco1 {
