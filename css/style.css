@@ -13,7 +13,7 @@ img {
 /* Stile blocchi */
 .container1, .container2, .container3 {
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 100vh;   
 }
 
@@ -47,4 +47,12 @@ h1 {
 .blocco1 img {
     width: 80%;
     height: 80%;
+}
+
+/* Pulsanti */
+.button {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transform: translate(-40%, -60%);
 }
